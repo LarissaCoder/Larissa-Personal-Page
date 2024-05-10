@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+body {
+    font-family: "Poppins", "Roboto", sans-serif;
+}
+
+.menu {
+    list-style: none;
+    text-align: center; 
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px; 
+    padding: 15px; 
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#photo {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 30px;
+    margin-right: 160px;
+    order: 2;
+}
+
+.general-description {
+    flex: 1;
+    padding: 20px;
+    margin: 30px 45px 40px 160px;
+}
+
+span{
+    display: block;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#introduction {
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.social-buttons {
+    display: flex;
+    margin-top: 40px;
+    align-items: left;
+}
+.social-buttons > a {
+    margin-right: 15px;
+}
+

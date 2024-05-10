@@ -30,8 +30,7 @@ body {
 
 #photo {
     width: 100%;
-    max-width: 400px;
-    margin-top: 30px;
+    max-width: 500px;
     margin-right: 160px;
     order: 2;
 }
